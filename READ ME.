@@ -1,0 +1,144 @@
+# AI Assignment 5
+
+## Overview
+
+This repository contains implementations of fundamental Artificial Intelligence concepts and algorithms as part of the AI course assignment. The project covers game-playing algorithms, search optimization techniques, a simple AI-based travel recommendation system, knowledge graph representation, and Bayesian reasoning.
+
+---
+
+## Assignment Components
+
+### Q1: Game Playing Algorithms
+
+Implemented and demonstrated the following algorithms using Tic-Tac-Toe as the problem domain:
+
+#### 1. Minimax Algorithm
+
+* Classical adversarial search algorithm.
+* Explores all possible future game states.
+* Chooses the optimal move assuming an intelligent opponent.
+
+#### 2. Alpha-Beta Pruning
+
+* Optimization of the Minimax algorithm.
+* Eliminates branches that cannot affect the final decision.
+* Improves search efficiency while maintaining correctness.
+
+#### 3. Heuristic Alpha-Beta Search
+
+* Incorporates a heuristic evaluation function.
+* Estimates board quality without exploring the full search tree.
+* Useful for larger search spaces.
+
+#### 4. Monte Carlo Tree Search (MCTS)
+
+* Uses randomized simulations to estimate move quality.
+* Selects moves based on simulation outcomes.
+* Commonly used in modern game-playing AI systems.
+
+---
+
+### Q2: AI-Based Travel Planner
+
+A simple travel recommendation system developed using Python and Flask.
+
+#### Features
+
+* User provides travel interest and budget.
+* System recommends suitable destinations.
+* Uses a small knowledge base stored in JSON format.
+* Demonstrates basic knowledge reuse and decision-making.
+
+#### Example Categories
+
+* Nature Tourism
+* Historical Places
+* Beach Destinations
+
+---
+
+### Q3: Knowledge Graph
+
+A basic implementation demonstrating the concept of knowledge representation through graphs.
+
+#### Concepts Covered
+
+* Entities
+* Relationships
+* Graph-based representation of knowledge
+* Node-to-node connections
+
+Example:
+AI → Machine Learning → Neural Networks
+
+---
+
+### Q4: Bayesian Network
+
+A simple probabilistic reasoning model illustrating Bayesian concepts.
+
+#### Concepts Covered
+
+* Conditional probability
+* Inference
+* Decision making under uncertainty
+
+Example Scenario:
+
+* Rain
+* Sprinkler
+* Wet Grass
+
+The implementation computes simple probability relationships between events.
+
+---
+
+## Technologies Used
+
+* Python 3
+* Flask
+* JSON
+* VS Code
+* Ubuntu Linux
+
+---
+
+## Project Structure
+
+```text
+AI_Assignment/
+│
+├── Q1_Minimax/
+│   ├── main.py
+│   ├── alpha_beta.py
+│   ├── heuristic_alpha_beta.py
+│   └── monte_carlo.py
+│
+├── Q2_TravelPlanner/
+│   ├── app.py
+│   └── places.json
+│
+├── Q3_KnowledgeGraph/
+│   └── knowledge_graph.py
+│
+├── Q4_BayesianNetwork/
+│   └── bayesian_network.py
+│
+└── README.md
+
+
+## Learning Outcomes
+
+* Understanding adversarial search techniques.
+* Applying optimization methods in game trees.
+* Building simple AI applications using knowledge bases.
+* Representing knowledge using graph structures.
+* Performing probabilistic reasoning using Bayesian concepts.
+
+---
+
+## Author
+
+John Abhishek Bandlamudi
+
+Artificial Intelligence Assignment Submission
